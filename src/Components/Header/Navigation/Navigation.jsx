@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import Image from "./Frame.svg";
+import Image from "./logo.svg";
+import { IoIosArrowDown } from "react-icons/io";
 export const Navigation = () => {
   return (
-    <nav>
+    <>
       <ul>
         <li>
           <Link to="/" className="logo-image">
@@ -11,6 +12,7 @@ export const Navigation = () => {
         </li>
         <li>
           <Link to="/">Products</Link>
+          <IoIosArrowDown />
         </li>
         <li>
           <Link to="/pricing">Pricing</Link>
@@ -20,19 +22,21 @@ export const Navigation = () => {
         </li>
         <li>
           <Link to="/reporting">Client reporting</Link>
-        </li>{" "}
+          <IoIosArrowDown />
+        </li>
         <li>
           <Link to="/learn">Learn</Link>
-        </li>{" "}
+          <IoIosArrowDown />
+        </li>
         <li>
           <Link to="/hire">We're hiring</Link>
         </li>
       </ul>
 
       <div className="signup">
-        <p>Log in</p>
-        <button type="button">Get started</button>
+        <p className="login-text">Log in</p>
+        <button type="button">Get started free</button>
       </div>
-    </nav>
+    </>
   );
 };
