@@ -1,0 +1,18 @@
+@mixin button {
+    width: 165px;
+    height: 40px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+  
+    cursor: pointer;
+  
+    text-align: center;
+    color: white;
+    background-color: #21264f;
+  
+    border-radius: 32px;
+  }

@@ -1,10 +1,10 @@
-import './App.scss'
-import { Header } from "./Components/Header/Header";
+import "./App.scss";
+import Homepage from "./Pages/Homepage/Homepage";
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Homepage />
     </>
   );
 };
