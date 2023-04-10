@@ -1,10 +1,12 @@
 import "./Header.scss";
 import { Navigation } from "./Navigation/Navigation";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="container">
       <Navigation />
     </header>
   );
 };
+
+export default Header;
