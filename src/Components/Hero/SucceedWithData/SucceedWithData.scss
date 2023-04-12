@@ -1,12 +1,12 @@
 @import "/src/mixins.scss";
 
-main {
+.succeedWithData-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hero__title {
+.succeedWithData-section .hero__title {
   max-width: 485px;
 
   margin-bottom: 20px;
@@ -21,7 +21,7 @@ main {
   color: #21264f;
 }
 
-.hero__subtitle {
+.succeedWithData-section .hero__subtitle {
   max-width: 445px;
 
   margin-bottom: 50px;
@@ -33,13 +33,13 @@ main {
   color: #21264f;
 }
 
-.hero__button {
+.succeedWithData-section .hero__button {
   @include button;
 
   width: 247px;
 }
 
-.hero__req-demo {
+.succeedWithData-section .hero__req-demo {
   font-weight: 800;
   font-size: 16px;
   line-height: 27px;
@@ -48,7 +48,7 @@ main {
   color: #21264f;
 }
 
-.hero__cta-group {
+.succeedWithData-section .hero__cta-group {
   display: flex;
   align-items: center;
   gap: 15px;
